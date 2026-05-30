@@ -1,0 +1,184 @@
+body {
+    background: linear-gradient(100deg, #069b01, #04b3df);
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    border-radius: 50%;
+}
+.titulo{
+
+    background-color: #00afa6;
+    width: 150px;
+    padding: 25px;
+    margin: 30px auto;
+    border: 3px solid #000000;
+}
+.info{
+    background-color: #00a8db;
+    border: 5px solid #003097;
+    border-radius: 15px;
+    padding: 25px;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0px 6px 15px rgb(75, 75, 75);
+}
+
+/* BENEFICIOS */
+.beneficios{
+    padding: 60px;
+    background: #0070b1;
+    text-align: center;
+    border-radius: 50px;
+    align-content: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 6px 15px #4d4d4d; 
+}
+
+.beneficios h2{
+    font-size: 35px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.descripcion{
+    max-width: 700px;
+    margin: auto;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.contenedor-beneficios{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card{
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgb(39, 39, 39);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card h3{
+    margin-bottom: 15px;
+    color: #189200;
+}
+
+.card p{
+    color: #000000;
+    line-height: 1.5;
+}
+
+/* DOCENTES */
+
+.docentes{
+    padding: 60px;
+    background: #00afa6;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow:  0px 6px 15px rgb(78, 78, 78) ;
+    border-radius: 50px;
+}
+
+.docentes h2{
+    font-size: 35px;
+    color: #070707;
+    margin-bottom: 15px;
+}
+
+.descripcion-docente{
+    max-width: 700px;
+    margin: auto;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.contenedor-docentes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card-docente{
+    background: #f5f7fb;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgb(41, 41, 41);
+    transition: 0.3s;
+}
+
+.card-docente:hover{
+    transform: translateY(-5px);
+}
+
+.card-docente h3{
+    margin-bottom: 15px;
+    color: #814500;
+}
+
+.card-docente p{
+    color: #000000;
+    line-height: 1.5;
+}
+
+/* FOOTER */
+
+.color {
+    color: rgb(0, 0, 0);
+    padding-top: 40px;
+    margin-top: 50px;
+    background-color: rgb(0, 119, 40);
+
+}
+
+footer img {
+    border-radius: 50%;
+}
+
+.register button {
+    width: auto;               
+  min-width: 120px;         
+  padding: 10px 20px;        
+  cursor: pointer;           
+  border: 2px black;              
+  border-radius: 8px;       
+  background-color: #0087b1; 
+  color: #000000;           
+  font-size: 16px;           
+  font-weight: bold; 
+   position: absolute;
+    top: 10px;    
+    right: 10px;   
+    box-shadow: 0px 4px 10px #2c2c2c;   
+}
+
+.register button:hover {
+    background-color: #0e00d8;
+}
+
+.iniciar button {
+    width: auto;               
+  min-width: 120px;         
+  padding: 10px 20px;        
+  cursor: pointer;           
+  border: 2px black;              
+  border-radius: 8px;       
+  background-color: #0087b1; 
+  color: #ffffff;           
+  font-size: 16px;           
+font-weight: bold; 
+position: absolute;
+top: 10px;    
+right: 200px;      
+box-shadow: 0px 4px 10px  #4d4d4d;
+}
+
+.iniciar button:hover {
+    background-color: #0e00d8;
+}
