@@ -43,12 +43,14 @@ nav{
 
 .beneficios h2{
     font-size: 35px;
+
     margin-bottom: 15px;
 }
 
 .descripcion{
     max-width: 700px;
     margin: auto;
+    
     margin-bottom: 40px;
 }
 
